@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class PixiAngularPage {
+export class CanvasAngularPage {
   navigateTo() {
     return browser.get('/');
   }

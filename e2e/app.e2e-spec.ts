@@ -1,10 +1,10 @@
-import { PixiAngularPage } from './app.po';
+import { CanvasAngularPage } from './app.po';
 
-describe('pixi-angular App', () => {
-  let page: PixiAngularPage;
+describe('ngrx-canvas App', () => {
+  let page: CanvasAngularPage;
 
   beforeEach(() => {
-    page = new PixiAngularPage();
+    page = new CanvasAngularPage();
   });
 
   it('should display welcome message', () => {
